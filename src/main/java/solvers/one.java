@@ -1,3 +1,4 @@
+package main.java.solvers;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
