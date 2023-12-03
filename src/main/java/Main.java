@@ -1,16 +1,13 @@
-package main.java;
+
 import java.io.IOException;
 import java.util.ArrayList;
-
-import main.java.solvers.Two;
-import main.java.solvers.one;
-
+import solvers.*;
 public class Main {
     
-    final static String DAY = "2";
+    final static String DAY = "3";
     final static String FIRST = "1";
     final static String SECOND = "2";
-    final static boolean DEBUG = false;
+    final static boolean DEBUG = true;
     
     public static void main(String[] args) throws IOException {
 
@@ -33,6 +30,12 @@ public class Main {
                 dayTwo.SolveFirst(taskInput);
                 dayTwo.SolveSecond(taskInput);
             
+            
+            case "3":
+                var dayThree = new Three();
+                dayThree.SolveFirst(taskInput);
+                break;
+
             default:
                 break;
         }
