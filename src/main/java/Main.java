@@ -7,7 +7,7 @@ public class Main {
     final static String DAY = "3";
     final static String FIRST = "1";
     final static String SECOND = "2";
-    final static boolean DEBUG = true;
+    final static boolean DEBUG = false;
     
     public static void main(String[] args) throws IOException {
 
